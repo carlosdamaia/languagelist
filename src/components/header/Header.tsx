@@ -1,13 +1,14 @@
-import styled from "style-components";
-
-export const Cabecalho = styled.H1`
-    color: blue;
-`;
+import { Cabecalho, LogoContainer, LogoPng } from "./Styled"
+import StackxLogo from "../../assets/images/stackxlogo.png"
 
 function Header() {
     return (
         <div>
-            <h1>Ola Mundo</h1>
+            <Cabecalho>
+                <LogoContainer>
+                    <LogoPng src={StackxLogo} alt="Logo StackX"/>
+                </LogoContainer>
+            </Cabecalho>
         </div>
     )
 }
