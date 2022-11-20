@@ -1,8 +1,8 @@
 function Apresentacao() {
     return(
         <div>
-            <p>Olá, meu nome é Carlos Eduardo da Maia e eu sou um desenvolvedor Front-End.</p>
-            <p>Tecnologias que tenho experiência</p>
+            <p>Olá, meu nome é <span>Carlos Eduardo da Maia</span> e eu sou um desenvolvedor Front-End.</p>
+            <p><span>Tecnologias que tenho experiência:</span></p>
         </div>
     )
 }
