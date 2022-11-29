@@ -11,9 +11,11 @@ function Content() {
     return(
         <div>
             <ContentContainer>
+                <section>
                 <Apresentacao />
                 <Lista itens={Tecnologias} />
                 <Footer />
+                </section>
             </ContentContainer>
         </div>
     )

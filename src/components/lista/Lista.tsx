@@ -4,10 +4,12 @@ function Lista({ itens }){
 
     return(
         <ContainerLista>
-            {
-                itens.map((item, index) => (
-                <li>{item}</li>
-            ))}
+            <ul>
+                {
+                    itens.map((item, index) => (
+                    <li>{item}</li>
+                ))}
+            </ul>
         </ContainerLista>
     )
 }

@@ -8,6 +8,12 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-size: 100%;
     }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 `;
 
 export default GlobalStyle
