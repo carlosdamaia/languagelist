@@ -11,9 +11,9 @@ export const ContainerLista = styled.div`
     border: 2px solid #9d4b00;
     border-radius: 8px;
     display: flex;
-    /* justify-content: space-around; */
-    align-items: center;
+    align-self: center;
     padding: 3rem;
+    margin: 5em 0;
 
     ul {
         display: flex;
@@ -23,13 +23,12 @@ export const ContainerLista = styled.div`
         align-items: flex-start;
         padding: 0 2rem;
         flex-wrap: wrap;
-        list-style: none;
     }
 
     li {
         font-size: 1.3rem;
+        font-weight: 600;
         color: rgba(255, 255, 255, 0.87);
         margin: 0 1rem;
-        padding-left: 1rem;
     }
 `;

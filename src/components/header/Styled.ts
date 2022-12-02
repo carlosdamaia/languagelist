@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const Cabecalho = styled.header`
     background: rgb(39,39,42);
-    width: 100vw;
     padding: 0.9375em 0;
     display: flex;
     justify-content: center;

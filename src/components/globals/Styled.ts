@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
         font-size: 100%;
     }
 
+    body {
+        font-family: Inter, sans-serif;
+    }
+
     div {
         display: flex;
         flex-direction: column;
