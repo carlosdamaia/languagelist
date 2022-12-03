@@ -6,17 +6,22 @@ export const ContainerButtons = styled.div`
     justify-content: center;
     margin: 5em 0 0 0;
 
-    div {
+    button {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-right: 2em;
-        padding: 0.5em 1em;
         background-color: rgb(39,39,42);
-        border-radius: 0.3125em;
-        color: white;
-        font-family: Inter, sans-serif;
-        font-weight: 500;
+        border: none;
+        border-radius: .3125em;
+        margin-right: 2em;
+        padding: .5em 1em;
+        transition: .2s;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: rgb(18,18,18);
+        border: 0.5px solid rgb(39,39,42);
     }
 
     img {

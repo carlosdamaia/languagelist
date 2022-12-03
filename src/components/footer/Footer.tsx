@@ -4,20 +4,21 @@ import SpainFlag from "../../assets/images/spain-flag.png"
 import UsaFlag from "../../assets/images/usa-flag.png"
 
 function Footer() {
+
     return (
         <ContainerButtons>
-            <div>
+            <button>
                 <img src={BrazilFlag} />
                 <p>Português</p>
-            </div>
-            <div>
+            </button>
+            <button>
                 <img src={SpainFlag} />
                 <p>Espanhol</p>
-            </div>
-            <div>
+            </button>
+            <button>
                 <img src={UsaFlag} />
                 <p>Inglês</p>
-            </div>
+            </button>
         </ContainerButtons>
     )
 }
