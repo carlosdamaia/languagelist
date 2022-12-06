@@ -16,9 +16,6 @@ function App() {
     <div>
       <GlobalStyle />
       <Header />
-      <div>
-        <h1>{languages.indexOf(2)}</h1>
-      </div>
       <Content />
       
     </div>
